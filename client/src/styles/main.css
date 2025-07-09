@@ -1,0 +1,36 @@
+/* Custom variables */
+:root {
+  --abbk-primary: #0d6efd;
+  --abbk-dark: #212529;
+}
+
+/* General styles */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Navbar styles */
+.navbar-brand span {
+  color: var(--abbk-primary);
+}
+
+/* Card shadows */
+.card {
+  transition: transform 0.3s ease;
+}
+.card:hover {
+  transform: translateY(-5px);
+}
+
+/* Button styles */
+.btn-primary {
+  background-color: var(--abbk-primary);
+  border-color: var(--abbk-primary);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .display-4 {
+    font-size: 2.5rem;
+  }
+}
